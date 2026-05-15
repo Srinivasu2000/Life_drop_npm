@@ -9,7 +9,7 @@ services:
       - mongo_data:/data/db
 
   backend:
-    image: veeradockerhub/lifedrop-backend:latest
+    image: srinivasu56/lifedrop-backend:latest
     container_name: lifedrop-backend
     restart: always
     depends_on:
@@ -21,7 +21,7 @@ services:
       NODE_ENV: production
 
   frontend:
-    image: veeradockerhub/lifedrop-frontend:latest
+    image: srinivasu56/lifedrop-frontend:latest
     container_name: lifedrop-frontend
     restart: always
     depends_on:
