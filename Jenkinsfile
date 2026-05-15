@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USERNAME = "srinivas56"
+        DOCKERHUB_USERNAME = "srinivasu56"
         BACKEND_IMAGE = "${DOCKERHUB_USERNAME}/lifedrop-backend:latest"
         FRONTEND_IMAGE = "${DOCKERHUB_USERNAME}/lifedrop-frontend:latest"
     }
